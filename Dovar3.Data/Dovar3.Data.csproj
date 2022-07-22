@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dovar3.Data</RootNamespace>
+    <AssemblyName>Dovar3.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\user\Desktop\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Kendo.Mvc">
+      <HintPath>..\Dovar3\lib\KENDOUIMVC\2013.1.319.340\Kendo.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\CustomIdentity.cs" />
+    <Compile Include="Constants\CustomPrincipal.cs" />
+    <Compile Include="Constants\MetaModel\AgeGroup.cs" />
+    <Compile Include="Constants\MetaModel\DataStatu.cs" />
+    <Compile Include="Constants\MetaModel\DetailOutbreak.cs" />
+    <Compile Include="Constants\MetaModel\Diagnosis.cs" />
+    <Compile Include="Constants\MetaModel\Disease.cs" />
+    <Compile Include="Constants\MetaModel\Location.cs" />
+    <Compile Include="Constants\MetaModel\LocationType.cs" />
+    <Compile Include="Constants\MetaModel\MonthlyReport.cs" />
+    <Compile Include="Constants\MetaModel\MonthlySummary.cs" />
+    <Compile Include="Constants\MetaModel\Operation.cs" />
+    <Compile Include="Constants\MetaModel\Publicbody.cs" />
+    <Compile Include="Constants\MetaModel\PublicBodyType.cs" />
+    <Compile Include="Constants\MetaModel\Qualification.cs" />
+    <Compile Include="Constants\MetaModel\ReportYesNo.cs" />
+    <Compile Include="Constants\MetaModel\Role.cs" />
+    <Compile Include="Constants\MetaModel\RoleOperation.cs" />
+    <Compile Include="Constants\MetaModel\Species.cs" />
+    <Compile Include="Constants\MetaModel\Status.cs" />
+    <Compile Include="Constants\MetaModel\UserAccount.cs" />
+    <Compile Include="Constants\MetaModel\UserRole.cs" />
+    <Compile Include="Constants\UserAccountModel.cs" />
+    <Compile Include="Models\AgeGroup.cs" />
+    <Compile Include="Models\DataStatu.cs" />
+    <Compile Include="Models\DbSetOffline.cs" />
+    <Compile Include="Models\DetailOutbreak.cs" />
+    <Compile Include="Models\Diagnosis.cs" />
+    <Compile Include="Models\Disease.cs" />
+    <Compile Include="Models\DiseaseSpecy.cs" />
+    <Compile Include="Models\dovarContext.cs" />
+    <Compile Include="Models\dovarserverContext.cs" />
+    <Compile Include="Models\ETH_adm3.cs" />
+    <Compile Include="Models\Gender.cs" />
+    <Compile Include="Models\GMonth.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\LocationShape.cs" />
+    <Compile Include="Models\LocationType.cs" />
+    <Compile Include="Models\Mapping\AgeGroupMap.cs" />
+    <Compile Include="Models\Mapping\DataStatuMap.cs" />
+    <Compile Include="Models\Mapping\DetailOutbreakMap.cs" />
+    <Compile Include="Models\Mapping\DiagnosisMap.cs" />
+    <Compile Include="Models\Mapping\DiseaseMap.cs" />
+    <Compile Include="Models\Mapping\DiseaseSpecyMap.cs" />
+    <Compile Include="Models\Mapping\ETH_adm3Map.cs" />
+    <Compile Include="Models\Mapping\GenderMap.cs" />
+    <Compile Include="Models\Mapping\GMonthMap.cs" />
+    <Compile Include="Models\Mapping\LocationMap.cs" />
+    <Compile Include="Models\Mapping\LocationShapeMap.cs" />
+    <Compile Include="Models\Mapping\LocationTypeMap.cs" />
+    <Compile Include="Models\Mapping\MonthlyReportMap.cs" />
+    <Compile Include="Models\Mapping\MonthlySummaryMap.cs" />
+    <Compile Include="Models\Mapping\MSreplication_optionsMap.cs" />
+    <Compile Include="Models\Mapping\OfflineMap.cs" />
+    <Compile Include="Models\Mapping\OperationMap.cs" />
+    <Compile Include="Models\Mapping\OutbreakStatuMap.cs" />
+    <Compile Include="Models\Mapping\PublicbodyMap.cs" />
+    <Compile Include="Models\Mapping\PublicBodyTypeMap.cs" />
+    <Compile Include="Models\Mapping\QualificationMap.cs" />
+    <Compile Include="Models\Mapping\ReportGeneraterMap.cs" />
+    <Compile Include="Models\Mapping\ReportYesNoMap.cs" />
+    <Compile Include="Models\Mapping\RoleMap.cs" />
+    <Compile Include="Models\Mapping\RoleOperationMap.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverage1Map.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverage2Map.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageByRVLMap.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageByZone1Map.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageByZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageMap.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageRVLforMapMap.cs" />
+    <Compile Include="Models\Mapping\rptAreaCoverageRVLMap.cs" />
+    <Compile Include="Models\Mapping\rptbackgroundInformationMap.cs" />
+    <Compile Include="Models\Mapping\rptDetailMOnthlyReport1Map.cs" />
+    <Compile Include="Models\Mapping\rptDetailMonthlyReportMap.cs" />
+    <Compile Include="Models\Mapping\rptdetailOutbreak1Map.cs" />
+    <Compile Include="Models\Mapping\rptdetailOutbreakMap.cs" />
+    <Compile Include="Models\Mapping\rptdetailOutbreakSummaryByRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptdetailOutbreakSummaryMap.cs" />
+    <Compile Include="Models\Mapping\rptDiseaseOutbreakDatabyMonthMap.cs" />
+    <Compile Include="Models\Mapping\rptDiseaseOutbreakDataMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyYearMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyyearmonthregionMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyYearRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyYearWoredaMap.cs" />
+    <Compile Include="Models\Mapping\rptdobyYearZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptdoConfirmedbyLabMap.cs" />
+    <Compile Include="Models\Mapping\rptdodetailOutbreakwithbackgroundMap.cs" />
+    <Compile Include="Models\Mapping\rptdoDetailReportingMap.cs" />
+    <Compile Include="Models\Mapping\rptdoDiagnosisVaccinatedMap.cs" />
+    <Compile Include="Models\Mapping\rptdoQuarterlyReportMap.cs" />
+    <Compile Include="Models\Mapping\rptDovarAreaCoverageByRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptDovarAreaCoverageByRVLMap.cs" />
+    <Compile Include="Models\Mapping\rptDovarAreaCoverageByZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptndobyRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptndobyWoredaMap.cs" />
+    <Compile Include="Models\Mapping\rptndobyZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptNofoOutbreakByRegionAndDiseaseMap.cs" />
+    <Compile Include="Models\Mapping\rptnonReportingWoredaMap.cs" />
+    <Compile Include="Models\Mapping\rptnumberOfnonReportingWeredaMap.cs" />
+    <Compile Include="Models\Mapping\rptobbymonthyearMap.cs" />
+    <Compile Include="Models\Mapping\rptobbyyearmonthworedaMap.cs" />
+    <Compile Include="Models\Mapping\rptobbyyearmonthzoneMap.cs" />
+    <Compile Include="Models\Mapping\rptPerformanceByRVL3Map.cs" />
+    <Compile Include="Models\Mapping\rptPerformanceSummarybyRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptRejectedReportMap.cs" />
+    <Compile Include="Models\Mapping\rptreportingDiseasebyRegion1Map.cs" />
+    <Compile Include="Models\Mapping\rptreportingDiseasebyRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptreportingDiseasebyRegionMonthMap.cs" />
+    <Compile Include="Models\Mapping\rptReportingNonReportingWoredaMap.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformance1Map.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformance2Map.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformanceByRVL2Map.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformanceByRVLMap.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformancebyZone1Map.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformancebyZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptReportingPerformanceMap.cs" />
+    <Compile Include="Models\Mapping\rptReportingVsNonReportingWoredaMap.cs" />
+    <Compile Include="Models\Mapping\rptreportingworedasbyregionMap.cs" />
+    <Compile Include="Models\Mapping\rptreportingworedasbyzoneMap.cs" />
+    <Compile Include="Models\Mapping\rptSummeryByRegionMap.cs" />
+    <Compile Include="Models\Mapping\rptsummeryMap.cs" />
+    <Compile Include="Models\Mapping\rptVaccinatedByDiseaseSpecyMap.cs" />
+    <Compile Include="Models\Mapping\rptVaccination1Map.cs" />
+    <Compile Include="Models\Mapping\rptVaccination2Map.cs" />
+    <Compile Include="Models\Mapping\rptVaccination3Map.cs" />
+    <Compile Include="Models\Mapping\rptVaccinationMap.cs" />
+    <Compile Include="Models\Mapping\rptVaccinationVsOutbreakMap.cs" />
+    <Compile Include="Models\Mapping\rptWeredaVaccinationCarriedOutMap.cs" />
+    <Compile Include="Models\Mapping\rptWoredaCountByZoneMap.cs" />
+    <Compile Include="Models\Mapping\rptworedacountMap.cs" />
+    <Compile Include="Models\Mapping\rptZeroReportbyWoredaMap.cs" />
+    <Compile Include="Models\Mapping\shapeMap.cs" />
+    <Compile Include="Models\Mapping\SpeciesMap.cs" />
+    <Compile Include="Models\Mapping\spt_fallback_dbMap.cs" />
+    <Compile Include="Models\Mapping\spt_fallback_devMap.cs" />
+    <Compile Include="Models\Mapping\spt_fallback_usgMap.cs" />
+    <Compile Include="Models\Mapping\spt_monitorMap.cs" />
+    <Compile Include="Models\Mapping\spt_valuesMap.cs" />
+    <Compile Include="Models\Mapping\StatusMap.cs" />
+    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
+    <Compile Include="Models\Mapping\testOutbreakMap.cs" />
+    <Compile Include="Models\Mapping\TypeOfFarmingMap.cs" />
+    <Compile Include="Models\Mapping\UserAccountMap.cs" />
+    <Compile Include="Models\Mapping\UserRoleMap.cs" />
+    <Compile Include="Models\Mapping\View_2Map.cs" />
+    <Compile Include="Models\masterContext.cs" />
+    <Compile Include="Models\MonthlyReport.cs" />
+    <Compile Include="Models\MonthlySummary.cs" />
+    <Compile Include="Models\MSreplication_options.cs" />
+    <Compile Include="Models\Offline.cs" />
+    <Compile Include="Models\Operation.cs" />
+    <Compile Include="Models\OutbreakStatu.cs" />
+    <Compile Include="Models\Publicbody.cs" />
+    <Compile Include="Models\PublicBodyType.cs" />
+    <Compile Include="Models\Qualification.cs" />
+    <Compile Include="Models\ReportGenerater.cs" />
+    <Compile Include="Models\ReportYesNo.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\RoleOperation.cs" />
+    <Compile Include="Models\rptAreaCoverage.cs" />
+    <Compile Include="Models\rptAreaCoverage1.cs" />
+    <Compile Include="Models\rptAreaCoverage2.cs" />
+    <Compile Include="Models\rptAreaCoverageByRVL.cs" />
+    <Compile Include="Models\rptAreaCoverageByZone.cs" />
+    <Compile Include="Models\rptAreaCoverageByZone1.cs" />
+    <Compile Include="Models\rptAreaCoverageRVL.cs" />
+    <Compile Include="Models\rptAreaCoverageRVLforMap.cs" />
+    <Compile Include="Models\rptbackgroundInformation.cs" />
+    <Compile Include="Models\rptDetailMonthlyReport.cs" />
+    <Compile Include="Models\rptDetailMOnthlyReport1.cs" />
+    <Compile Include="Models\rptdetailOutbreak.cs" />
+    <Compile Include="Models\rptdetailOutbreak1.cs" />
+    <Compile Include="Models\rptdetailOutbreakSummary.cs" />
+    <Compile Include="Models\rptdetailOutbreakSummaryByRegion.cs" />
+    <Compile Include="Models\rptDiseaseOutbreakData.cs" />
+    <Compile Include="Models\rptDiseaseOutbreakDatabyMonth.cs" />
+    <Compile Include="Models\rptdobyRegion.cs" />
+    <Compile Include="Models\rptdobyYear.cs" />
+    <Compile Include="Models\rptdobyyearmonthregion.cs" />
+    <Compile Include="Models\rptdobyYearRegion.cs" />
+    <Compile Include="Models\rptdobyYearWoreda.cs" />
+    <Compile Include="Models\rptdobyYearZone.cs" />
+    <Compile Include="Models\rptdoConfirmedbyLab.cs" />
+    <Compile Include="Models\rptdodetailOutbreakwithbackground.cs" />
+    <Compile Include="Models\rptdoDetailReporting.cs" />
+    <Compile Include="Models\rptdoDiagnosisVaccinated.cs" />
+    <Compile Include="Models\rptdoQuarterlyReport.cs" />
+    <Compile Include="Models\rptDovarAreaCoverageByRegion.cs" />
+    <Compile Include="Models\rptDovarAreaCoverageByRVL.cs" />
+    <Compile Include="Models\rptDovarAreaCoverageByZone.cs" />
+    <Compile Include="Models\rptndobyRegion.cs" />
+    <Compile Include="Models\rptndobyWoreda.cs" />
+    <Compile Include="Models\rptndobyZone.cs" />
+    <Compile Include="Models\rptNofoOutbreakByRegionAndDisease.cs" />
+    <Compile Include="Models\rptnonReportingWoreda.cs" />
+    <Compile Include="Models\rptnumberOfnonReportingWereda.cs" />
+    <Compile Include="Models\rptobbymonthyear.cs" />
+    <Compile Include="Models\rptobbyyearmonthworeda.cs" />
+    <Compile Include="Models\rptobbyyearmonthzone.cs" />
+    <Compile Include="Models\rptPerformanceByRVL3.cs" />
+    <Compile Include="Models\rptPerformanceSummarybyRegion.cs" />
+    <Compile Include="Models\rptRejectedReport.cs" />
+    <Compile Include="Models\rptreportingDiseasebyRegion.cs" />
+    <Compile Include="Models\rptreportingDiseasebyRegion1.cs" />
+    <Compile Include="Models\rptreportingDiseasebyRegionMonth.cs" />
+    <Compile Include="Models\rptReportingNonReportingWoreda.cs" />
+    <Compile Include="Models\rptReportingPerformance.cs" />
+    <Compile Include="Models\rptReportingPerformance1.cs" />
+    <Compile Include="Models\rptReportingPerformance2.cs" />
+    <Compile Include="Models\rptReportingPerformanceByRVL.cs" />
+    <Compile Include="Models\rptReportingPerformanceByRVL2.cs" />
+    <Compile Include="Models\rptReportingPerformancebyZone.cs" />
+    <Compile Include="Models\rptReportingPerformancebyZone1.cs" />
+    <Compile Include="Models\rptReportingVsNonReportingWoreda.cs" />
+    <Compile Include="Models\rptreportingworedasbyregion.cs" />
+    <Compile Include="Models\rptreportingworedasbyzone.cs" />
+    <Compile Include="Models\rptsummery.cs" />
+    <Compile Include="Models\rptSummeryByRegion.cs" />
+    <Compile Include="Models\rptVaccinatedByDiseaseSpecy.cs" />
+    <Compile Include="Models\rptVaccination.cs" />
+    <Compile Include="Models\rptVaccination1.cs" />
+    <Compile Include="Models\rptVaccination2.cs" />
+    <Compile Include="Models\rptVaccination3.cs" />
+    <Compile Include="Models\rptVaccinationVsOutbreak.cs" />
+    <Compile Include="Models\rptWeredaVaccinationCarriedOut.cs" />
+    <Compile Include="Models\rptworedacount.cs" />
+    <Compile Include="Models\rptWoredaCountByZone.cs" />
+    <Compile Include="Models\rptZeroReportbyWoreda.cs" />
+    <Compile Include="Models\shape.cs" />
+    <Compile Include="Models\Species.cs" />
+    <Compile Include="Models\spt_fallback_db.cs" />
+    <Compile Include="Models\spt_fallback_dev.cs" />
+    <Compile Include="Models\spt_fallback_usg.cs" />
+    <Compile Include="Models\spt_monitor.cs" />
+    <Compile Include="Models\spt_values.cs" />
+    <Compile Include="Models\Status.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\testOutbreak.cs" />
+    <Compile Include="Models\TypeOfFarming.cs" />
+    <Compile Include="Models\UserAccount.cs" />
+    <Compile Include="Models\UserRole.cs" />
+    <Compile Include="Models\View_2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Release\Dovar3.Data.dll.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Dovar3.Data.dll" />
+    <Content Include="bin\Release\bg-BG\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\da-DK\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\de-DE\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\Dovar3.Data.dll" />
+    <Content Include="bin\Release\Dovar3.Data.pdb" />
+    <Content Include="bin\Release\EntityFramework.dll" />
+    <Content Include="bin\Release\EntityFramework.xml" />
+    <Content Include="bin\Release\es-ES\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\fr-FR\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\Kendo.Mvc.dll" />
+    <Content Include="bin\Release\Kendo.Mvc.xml" />
+    <Content Include="bin\Release\nl-NL\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\pl-PL\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\pt-BR\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\pt-PT\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\ru-RU\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\sv-SE\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\uk-UA\Kendo.Mvc.resources.dll" />
+    <Content Include="bin\Release\zh-CN\Kendo.Mvc.resources.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\bg-BG\" />
+    <Folder Include="bin\Debug\da-DK\" />
+    <Folder Include="bin\Debug\de-DE\" />
+    <Folder Include="bin\Debug\es-ES\" />
+    <Folder Include="bin\Debug\fr-FR\" />
+    <Folder Include="bin\Debug\nl-NL\" />
+    <Folder Include="bin\Debug\pl-PL\" />
+    <Folder Include="bin\Debug\pt-BR\" />
+    <Folder Include="bin\Debug\pt-PT\" />
+    <Folder Include="bin\Debug\ru-RU\" />
+    <Folder Include="bin\Debug\sv-SE\" />
+    <Folder Include="bin\Debug\uk-UA\" />
+    <Folder Include="bin\Debug\zh-CN\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

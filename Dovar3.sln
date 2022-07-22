@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovar3.Web", "Dovar3\Dovar3.Web.csproj", "{22AF7875-93B1-4652-A93D-DC9716EBEE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovar3.Tests", "Dovar3.Tests\Dovar3.Tests.csproj", "{0EE6C5B7-EADB-4605-96FF-21C02FE877B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovar3.Data", "Dovar3.Data\Dovar3.Data.csproj", "{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22AF7875-93B1-4652-A93D-DC9716EBEE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AF7875-93B1-4652-A93D-DC9716EBEE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AF7875-93B1-4652-A93D-DC9716EBEE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AF7875-93B1-4652-A93D-DC9716EBEE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE6C5B7-EADB-4605-96FF-21C02FE877B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE6C5B7-EADB-4605-96FF-21C02FE877B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE6C5B7-EADB-4605-96FF-21C02FE877B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE6C5B7-EADB-4605-96FF-21C02FE877B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB6F3A1-4A1E-4E71-860A-0E905F2930A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+
+namespace Dovar3.Data.Models
+{
+    public partial class DataStatu
+    {
+        public DataStatu()
+        {
+            this.MonthlyReports = new List<MonthlyReport>();
+        }
+
+        public int Id { get; set; }
+        public string StatusName { get; set; }
+        public virtual ICollection<MonthlyReport> MonthlyReports { get; set; }
+    }
+}

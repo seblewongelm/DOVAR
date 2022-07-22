@@ -1,0 +1,82 @@
+F:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll.config
+F:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.pdb
+F:\source\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.dll
+F:\source\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+F:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.xml
+F:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.csprojResolveAssemblyReference.cache
+F:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.dll
+F:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.pdb
+B:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll.config
+B:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.pdb
+B:\source\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Mvc.FixedDisplayModes.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Net.Http.Formatting.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.WebHost.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.dll
+B:\source\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Net.Http.Formatting.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.WebHost.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+B:\source\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.xml
+B:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.csprojResolveAssemblyReference.cache
+B:\source\dovar3\Dovar3.Tests\obj\Release\RdlCompile.cache
+B:\source\dovar3\Dovar3.Tests\obj\Release\RdlCompile.compiled
+B:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.dll
+B:\source\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.pdb
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll.config
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Dovar3.Tests.pdb
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.WebHost.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Helpers.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Http.WebHost.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Mvc.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.Razor.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\obj\Release\RdlCompile.cache
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\obj\Release\RdlCompile.compiled
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Tests\obj\Release\Dovar3.Tests.pdb

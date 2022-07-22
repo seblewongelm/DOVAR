@@ -1,0 +1,68 @@
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\EntityFramework.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\Kendo.Mvc.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\EntityFramework.xml
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\Kendo.Mvc.xml
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\bg-BG\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\da-DK\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\de-DE\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\es-ES\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\fr-FR\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\nl-NL\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\pl-PL\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\pt-BR\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\pt-PT\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\ru-RU\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\sv-SE\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\uk-UA\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\bin\Release\zh-CN\Kendo.Mvc.resources.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+D:\Source\Dovar\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
+D:\Source\Dovar\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+E:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+E:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+E:\source\dovar3\Dovar3.Data\bin\Release\EntityFramework.xml
+E:\source\dovar3\Dovar3.Data\bin\Release\Kendo.Mvc.xml
+E:\source\dovar3\Dovar3.Data\bin\Release\bg-BG\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\da-DK\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\de-DE\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\es-ES\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\fr-FR\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\nl-NL\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\pl-PL\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\pt-BR\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\pt-PT\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\ru-RU\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\sv-SE\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\uk-UA\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\bin\Release\zh-CN\Kendo.Mvc.resources.dll
+E:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+E:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+E:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
+F:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+F:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+F:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+F:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+F:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+F:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
+D:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+D:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+D:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+D:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+D:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+D:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
+B:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+B:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+B:\source\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+B:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+B:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+B:\source\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll.config
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\bin\Release\Dovar3.Data.pdb
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.dll
+C:\Users\hp\Documents\Visual Studio 2012\Projects\dovar3\Dovar3.Data\obj\Release\Dovar3.Data.pdb
